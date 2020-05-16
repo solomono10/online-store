@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import Navbar from './components/navbar';
+import Navbar from './components/navbar';
 // import Scroll from './components/scroll';
 import Products from './components/products';
-// import Product from './components/product';
-// import Footer from './components/footer';
+import Footer from './components/footer';
 import SearchBox from './components/searchbox';
 import { products } from './products';
 import './App.css';
@@ -26,7 +25,6 @@ class App extends Component {
     this.setState({
       category: event.target.value
     });
-    // console.log(event.target.value);
   }
 
   filteredProduct = () => {
@@ -61,16 +59,20 @@ class App extends Component {
    
   render() {
     return (
-      <React.Fragment>
-        <div className="container">
-          <div>
-            <SearchBox handleChange={() => this.handleChange} handleSelect={() => this.handleSelect} />
+      <div>
+          <Navbar />
+          <div className="container">
+            <div>
+              <SearchBox handleChange={() => this.handleChange} handleSelect={() => this.handleSelect} />
+            </div>
+            <div className="App"> 
+              < Products products={this.filteredProduct()} />
+            </div>
           </div>
-          <div className="App"> 
-            < Products products={this.filteredProduct()} />
-          </div>
+        <div className="footer" >
+          <Footer />
         </div>
-      </React.Fragment>
+      </div>
      );
   }
 }

@@ -7,7 +7,6 @@ const SearchBox = prop => {
             <input
                 type="search"
                 className="form-control form-control-lg" 
-                name="q"
                 placeholder="Please search product"
                 autoComplete="off"
                 onChange={prop.handleChange()}
@@ -15,7 +14,7 @@ const SearchBox = prop => {
         </div>
         <div className="form-group col-lg-6">
             <select  className="form-control form-control-lg" onChange={prop.handleSelect()}>
-            <option selected disabled>Please select category</option>
+            <option value={"Please select category"}>Please select category</option>
             <option>Condiments</option>
             <option>Fish</option>
             <option>Grains</option>
