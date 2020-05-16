@@ -1,0 +1,98 @@
+export const products = [
+    {
+        id: 1,
+        "productName": "Salt",
+        "category": "Condiments",
+        "price": "0.40",
+    },
+    {
+        id: 2,
+        "productName": "Pepper",
+        "category": "Condiments",
+        "price": "0.80",
+    },
+    {
+        id: 3,
+        "productName": "Stock cubes",
+        "category": "Condiments",
+        "price": "0.30",
+    },
+    {
+        id: 4,
+        "productName": "Vinegar",
+        "category": "Condiments",
+        "price": "0.50",
+    },
+    {
+        id: 5,
+        "productName": "Sugar",
+        "category": "Condiments",
+        "price": "0.40",
+    },
+    {
+        id: 6,
+        "productName": "Tuna",
+        "category": "Fish",
+        "price": "2.40",
+    },
+    {
+        id: 7,
+        "productName": "Mackerel",
+        "category": "Fish",
+        "price": "2.40",
+    },
+    {
+        id: 8,
+        "productName": "Pasta",
+        "category": "Grains",
+        "price": "2.40",
+    },
+    {
+        id: 9,
+        "productName": "Rice",
+        "category": "Grains",
+        "price": "2.40",
+    },
+    {
+        id: 10,
+        "productName": "Milk",
+        "category": "Dairy",
+        "price": "2.40",
+    },
+    {
+        id: 11,
+        "productName": "Eggs",
+        "category": "Dairy",
+        "price": "2.40",
+    },
+    {
+        id: 12,
+        "productName": "Cheese",
+        "category": "Dairy",
+        "price": "2.40",
+    },
+    {
+        id: 13,
+        "productName": "Onions",
+        "category": "Produce",
+        "price": "2.40",
+    },
+    {
+        id: 14,
+        "productName": "Garlic",
+        "category": "Produce",
+        "price": "2.40",
+    },
+    {
+        id: 15,
+        "productName": "Fruit",
+        "category": "Produce",
+        "price": "2.40",
+    },
+    {
+        id: 16,
+        "productName": "Vegetables",
+        "category": "Produce",
+        "price": "2.40",
+    },
+];
