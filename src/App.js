@@ -35,6 +35,8 @@ class App extends Component {
 
   if (!value && !category) return productsList;
 
+  if (category === 'Please select category' && !value) return productsList;
+
    if (categories.includes(category.toLowerCase())){
     filtered = productsList.filter(product => {
           return product.category.toLowerCase() === category.toLowerCase();

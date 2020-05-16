@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return ( 
         <footer>
-            <p className="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2017-2019 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+            <p className="float-right"><a href="www.google.com">Back to top</a></p>
+            <p>&copy; 2020 Kay, Inc. &middot; <a href="www.google.com">Privacy</a> &middot; <a href="www.google.com">Terms</a></p>
         </footer>
     );
 }
